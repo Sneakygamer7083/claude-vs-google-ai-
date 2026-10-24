@@ -1,0 +1,9 @@
+To run it on Windows (needs Node 20+):
+
+powershell
+npm install
+npm test
+npm start
+npm run pack   # builds release\win-unpacked\Personal Browser.exe
+
+npm run dist makes an installer, and npm run dist:portable makes a single portable .exe. If the build fails with a symbolic-link error, turn on Windows Developer Mode.

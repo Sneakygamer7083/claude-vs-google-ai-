@@ -1,0 +1,17 @@
+Step 0: Ensure Node.js is Installed
+You only need Node.js (version 20 or higher) on your Windows PC:
+If you don't already have it, download the official free installer from https://nodejs.org/ (LTS version recommended).
+Step 1: Extract the ZIP
+Locate the downloaded .zip file on your PC (usually in your Downloads folder).
+Right-click the ZIP file and select "Extract All...".
+Choose a destination folder (such as your Desktop or C:\AeroChromium\) and click Extract.
+Note: Do not run the files directly from inside the compressed preview window; extract the folder first.
+Step 2: Choose Your Way to Run
+Option A: The 1-Click Batch Launcher (Easiest)
+Open the extracted folder in File Explorer.
+Double-click run.bat.
+The script will:
+Verify Node.js is present.
+Run npm install automatically if dependencies haven't been downloaded yet.
+Compile the Electron bundles.
+Launch the AeroChromium desktop browser window immediately.
